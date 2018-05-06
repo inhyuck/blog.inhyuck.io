@@ -21,7 +21,7 @@
 
   3. merge sort 와 quick sort 시간복잡도, 공간복잡도 비교(최선, 최악의 경우)
 
-  4. quick partion 기준값 맨 뒤 원소로 연습해보기
+  4. quick partition 기준값 맨 뒤 원소로 연습해보기
 
      
 
