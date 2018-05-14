@@ -1,10 +1,18 @@
+---
+title: "Class"
+date: 2018-05-15T00:15:43+09:00
+categories: ["java"]
+tags: ["OOP"]
+---
+
 # 한솥밥튜터링 2주차(4/19)
 
 ### 시간 : 18:00 - 21:30 / 장소 : 1502
 
----
+------
 
 ## 🏫 수업 전 공지
+
 - [알고리즘 시각화 사이트](https://visualgo.net/ko)
 - **다음주 수요일 알고리즘 시험!**
 - 다음주 시험 전에 한번 모일수 있는지?(나는 수요일, 목요일 시험임) / 시간조정
@@ -23,13 +31,13 @@
 
   4. quick partition 기준값 맨 뒤 원소로 연습해보기
 
-     
+      
 
-- heap sort	
+     heap sort	
 
   - 최소 힙, 최대 힙
 
-- selection algorithm	
+    selection algorithm	
 
   - 시간복잡도(quick sort와 연관지어서) / 최악의 경우
 

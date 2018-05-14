@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Inhyuck Choi</title>
+    <link>http://localhost:1313/categories/java/</link>
+    <description>Recent content in Java on Inhyuck Choi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <lastBuildDate>Tue, 15 May 2018 00:15:43 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Class</title>
+      <link>http://localhost:1313/java/class/</link>
+      <pubDate>Tue, 15 May 2018 00:15:43 +0900</pubDate>
+      
+      <guid>http://localhost:1313/java/class/</guid>
+      <description>한솥밥튜터링 2주차(4&amp;frasl;19) 시간 : 18:00 - 21:30 / 장소 : 1502 🏫 수업 전 공지 알고리즘 시각화 사이트 다음주 수요일 알고리즘 시험! 다음주 시험 전에 한번</description>
+    </item>
+    
+  </channel>
+</rss>
