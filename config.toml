@@ -4,7 +4,7 @@ defaultContentLanguage = "kr-ko"                             # en / zh-cn / ... 
 title = "Inhyuck Choi"
 enableRobotsTXT = true
 enableEmoji = true
-theme = "even"
+theme = "hugo-theme-even"
 
 preserveTaxonomyNames = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
