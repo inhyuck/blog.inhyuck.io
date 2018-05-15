@@ -2,7 +2,6 @@
 title: "Boostcourse - start"
 date: 2018-05-16T02:28:21+09:00
 lastmod: 2018-05-16T02:28:21+09:00
-draft: true
 keywords: ["Boostcourse"]
 description: "Boostcourse Full-Stack Developer"
 tags: ["Boostcourse", "Full-Stack Developer"]
