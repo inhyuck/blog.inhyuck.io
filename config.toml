@@ -1,10 +1,10 @@
 baseURL = "http://localhost:1313/"
-languageCode = "kr-ko"
-defaultContentLanguage = "kr-ko"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Inhyuck Choi"
+languageCode = "en"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
+title = "inhyuck's Dev Blog"
 enableRobotsTXT = true
 enableEmoji = true
-theme = "hugo-theme-even"
+theme = "even"
 
 preserveTaxonomyNames = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
@@ -27,7 +27,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "Post"
   weight = 20
   identifier = "archives"
   url = "/post/"
@@ -46,10 +46,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   version = "3.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2018"            # Site creation time          # 站点建立时间
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Even"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "👨‍💻"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","even"]
   description = "Hugo theme even example site."
 
@@ -131,7 +131,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:dlsgur1447@gmail.com"
     b-stack-overflow = "http://localhost:1313"
     c-twitter = "http://localhost:1313"
     d-facebook = "http://localhost:1313"
