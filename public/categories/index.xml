@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on inhyuck&#39;s Dev Blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://blog.inhyuck.io/categories/</link>
     <description>Recent content in Categories on inhyuck&#39;s Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 16 May 2018 02:28:21 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.inhyuck.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Boostcourse</title>
+      <link>http://blog.inhyuck.io/categories/boostcourse/</link>
+      <pubDate>Wed, 16 May 2018 02:28:21 +0900</pubDate>
+      
+      <guid>http://blog.inhyuck.io/categories/boostcourse/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

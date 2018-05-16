@@ -1,0 +1,159 @@
+---
+title: "[Boostcourse] 1.웹프로그래밍 기초"
+date: 2018-05-17T03:09:04+09:00
+lastmod: 2018-05-17T03:09:04+09:00
+# draft: true
+keywords: []
+description: ""
+tags: ["Boostcourse", "Full-Stack Developer", "web", "http", "front-end", "back-end", "brower", "WAS"]
+categories: ["Boostcourse"]
+author: ""
+
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
+comment: false
+toc: false
+autoCollapseToc: false
+postMetaInFooter: false
+hiddenFromHomePage: false
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+contentCopyright: false
+reward: false
+mathjax: false
+mathjaxEnableSingleDollar: false
+mathjaxEnableAutoNumber: false
+
+# You unlisted posts you might want not want the header or footer to show
+hideHeaderAndFooter: false
+
+flowchartDiagrams:
+  enable: false
+  options: ""
+
+sequenceDiagrams: 
+  enable: false
+  options: ""
+
+---
+
+<!--more-->
+
+## Web 개발의 이해 - FB/BE
+
+---
+
+### 1) 웹 프로그래밍을 위한 언어들
+
+>  저급언어(기계어, 어셈블리어) / 고급언어
+>
+> 웹 관련 인기있는 언어 - Python, PHP, JavaScript, JAVA, Ruby
+
+
+
+### 2) 웹의 동작(HTTP 프로토콜 이해)
+
+- 인터넷 - TCP/IP 기반의 네트워크가 전세계적으로 확대되어 하나로 연결된 네트워크들의 네트워크(네트워크의 결합체)
+
+- HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고 받기 위한 프로토콜(protocol)이다.
+
+- HTTP 작동방식 - 서버/클라이언트 모델을 따른다.
+
+  클라이언트와 서버가 계속 연결된 형태가 아니기 때문에 클라이언트와 서버 간의 최대 연결 수보다 많은 요청과 응답 처리가능. 연결을 끊어버리기 때문에 클라이언트의 이전 상황을 알 수 없다(무상태성 Stateless) => 쿠키등장
+
+  > URL(Uniform Resource Locator)
+  >
+  > 인터넷 상의 자원의 위치. 특정 웹 서버의 특정 파일에 접근하기 위한 경로 혹은 주소
+
+  ![http](../../../images/boostcourse/http.png)
+
+  > 요청헤더에 포함되는 정보
+  >
+  > 요청메소드 / 요청URI(요청하는 자원의 위치) / HTTP 프로토콜 버전
+
+  요청메소드
+
+  - GET : 정보를 요청하기 위해서 사용한다. (SELECT)
+  - POST : 정보를 밀어넣기 위해서 사용한다. (INSERT)
+  - PUT : 정보를 업데이트하기 위해서 사용한다. (UPDATE)
+  - DELETE : 정보를 삭제하기 위해서 사용한다. (DELETE)
+  - HEAD : (HTTP)헤더 정보만 요청한다. 해당 자원이 존재하는지 혹은 서버에 문제가 없는지를 확인하기 위해서 사용한다.
+  - OPTIONS : 웹서버가 지원하는 메서드의 종류를 요청한다.
+  - TRACE : 클라이언트의 요청을 그대로 반환한다. 예컨데 echo 서비스로 서버 상태를 확인하기 위한 목적으로 주로 사용한다.
+
+- HTTPS란 ? - HyperText Transfer Protocol over Secure Sockets Layer. HTTP의 보안이 강화된 버전. HTTPS는 소켓 통신에서 일반 텍스트를 이용하는 대신에, SSL 이나 TLS프로토콜을 통해 세션 데이터를 암호호화 한다. HTTPS의 기본 TCP/IP포트는 443이다_[위키](https://ko.wikipedia.org/wiki/HTTPS)
+
+
+
+### 3) 웹 Front-End 와 Back-End
+
+- 웹프론트엔드란? 사용자에게 웹을 통해 다양한 콘텐츠(문서, 사진, 동영상 등)를 제공.
+
+  사용자의 요청에 반응해서 동작.
+
+- 웹 프론트엔드의 역할
+
+  - 웹콘텐츠를 잘 보여주기 위해 구조를 만들어야 함
+
+    **HTML** | 문서의구조를 계층적으로 표현
+
+  - 적절한 배치와 일관된 디자인 제공
+
+    **CSS** | HTML태그를 꾸미기 위한 규칙
+
+  - 사용자의 요청을 잘 반영
+
+    **JavaScript** | HTML, CSS를 이리저리 움직이고 변경
+
+    
+
+- 백 엔드란? 정보를 처리하고 저장하며, 요청에 따라 정보를 내려주는 역할을 한다. 
+
+- 백엔드 개발자가 알아야 할 것들
+
+  - 프로그래밍 언어
+  - 웹의 동작원리
+  - 알고리즘, 자료구조, 등 프로그래밍 기반지식
+  - 운영체제, 네트워크 등에 대한 이해
+  - 프레임워크에 대한 이해
+  - DBMS에 대한 이해와 사용방법
+
+### 4) browser의 동작
+
+- 브라우저는 월드와이드웹(WWW)에서 정보를 검색, 표현하고 탐색하기 위한 소프트웨어이다.
+
+- Browser에는 데이터를 해석해주는 **파서** 와 데이터를 화면에 표현해주는 **랜더링엔진** 이 포함되어 있다.
+
+- 인터넷에서 특정 정보로 이동할 수 있는 주소 입력창. / 서버와 HTTP로 정보를 주고 받을 수 있는 네트워크 모듈.
+
+- 서버에서 받은 문서(HTML, CSS, JavaScript)를 해석하고 실행하여 화면에 표현하기 위한 Parser.
+
+- 브라우저 구조
+
+  ![http](../../../images/boostcourse/layers.png)
+
+- 동작과정
+
+  ![http](../../../images/boostcourse/webkitflow.png)
+
+=> HTML을 해석해서 DOM Tree를 만들고, CSS를 해석해서 CSS Tree(CSS Object Model)을 만든다
+
+이 과정에서 Parsing 과정이 필요하다 DOM Tree 와 CSS Tree는 연관되어 있으므로 Render Tree로 조합된다.
+
+조합된 결과는 화면에 어떻게 배치할 지 크기와 위치정보를 담고있다. 이렇게 구성된 Render Tree정보를 통해서 화면에 어떤 부분에 어떻게 색칠을 할 지 Painting과정을 거치게 된다.
+
+- [How Browsers Work: Behind the scenes of modern web browsers](https://d2.naver.com/helloworld/59361)
+- [브라우저는 어떻게 동작하는가?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Introduction)
+
+
+
+### 5) 웹서버
+
+- 
+
+### 6) WAS
+
+- 
+
+------
+
+출처 : [부스트코스 Full-StackWeb Developer 과정](http://www.edwith.org/boostcourse-web/lecture/16663/)

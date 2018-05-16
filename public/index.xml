@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>inhyuck&#39;s Dev Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://blog.inhyuck.io/</link>
     <description>Recent content on inhyuck&#39;s Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.inhyuck.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://blog.inhyuck.io/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      <description>안녕하세요. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
+      <guid>http://blog.inhyuck.io/about/</guid>
+      <description>안녕하세요. GitHub.</description>
+    </item>
+    
+    <item>
+      <title>[Boostcourse] start</title>
+      <link>http://blog.inhyuck.io/post/boostcourse/boostcourse_start/</link>
+      <pubDate>Wed, 16 May 2018 02:28:21 +0900</pubDate>
+      
+      <guid>http://blog.inhyuck.io/post/boostcourse/boostcourse_start/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

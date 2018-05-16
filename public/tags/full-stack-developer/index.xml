@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full-Stack Developer on inhyuck&#39;s Dev Blog</title>
+    <link>http://blog.inhyuck.io/tags/full-stack-developer/</link>
+    <description>Recent content in Full-Stack Developer on inhyuck&#39;s Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 May 2018 02:28:21 +0900</lastBuildDate>
+    
+	<atom:link href="http://blog.inhyuck.io/tags/full-stack-developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Boostcourse] start</title>
+      <link>http://blog.inhyuck.io/post/boostcourse/boostcourse_start/</link>
+      <pubDate>Wed, 16 May 2018 02:28:21 +0900</pubDate>
+      
+      <guid>http://blog.inhyuck.io/post/boostcourse/boostcourse_start/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
