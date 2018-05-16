@@ -2,7 +2,7 @@
 title: "[Boostcourse] O.T."
 date: 2018-05-17T02:55:19+09:00
 lastmod: 2018-05-17T02:55:19+09:00
-draft: true
+# draft: true
 keywords: []
 description: ""
 tags: ["Boostcourse", "Full-Stack Developer"]
