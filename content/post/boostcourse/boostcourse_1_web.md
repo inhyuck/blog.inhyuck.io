@@ -141,12 +141,28 @@ sequenceDiagrams:
 
 조합된 결과는 화면에 어떻게 배치할 지 크기와 위치정보를 담고있다. 이렇게 구성된 Render Tree정보를 통해서 화면에 어떤 부분에 어떻게 색칠을 할 지 Painting과정을 거치게 된다.
 
-- [How Browsers Work: Behind the scenes of modern web browsers](https://d2.naver.com/helloworld/59361)
-- [브라우저는 어떻게 동작하는가?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Introduction)
+- [참고링크 How Browsers Work: Behind the scenes of modern web browsers](https://d2.naver.com/helloworld/59361)
+- [참고링크 브라우저는 어떻게 동작하는가?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Introduction)
 
+### 5) browser에서의 웹 개발
 
+- <head> 태그 : 눈에 보이는것이 아닌 HTML문서의 추가적인 정보.
 
-### 5) 웹서버
+- <body> 태그 : 실제 눈에 보이는것들. 
+
+- HTML은 계층적이다.
+
+- HTML은 tag를 사용해서 표현한다.
+
+- 자바스크립트 코드가 html tag 사이에 들어가면 랜더링에 방해가 될 수 있다. 따라서 가급적 문서 하단에 추가해주는것이 좋다.
+
+  (</body> 태그 바로 앞이나 뒤)
+
+- css코드는 head 태그 안에 위치해서 렌더링 처리 시에 브라우저가 더 빨리 참고할 수 있게 하는 것이 좋다.
+
+- [참고링크 웹에서 html, css, javaScript 실행 가능한 사이트](http://jsbin.com/?html,output)
+
+### 6) 웹서버
 
 - 
 
