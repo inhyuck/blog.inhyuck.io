@@ -37,8 +37,9 @@ sequenceDiagrams:
 ---
 
 <!--more-->
+## 부스트코스  Full-Stack Web Developer
 
-## Web 개발의 이해 - FB/BE
+### Web 개발의 이해 - FB/BE
 
 ---
 
@@ -205,6 +206,9 @@ sequenceDiagrams:
     > - 자원 이용의 효율성 및 장애극복(failover), 배포 및 유지보수의 편의성
     > - 보통 웹서버가 WAS 앞단에서 동작하도록 하는 경우가 많다.
 
-------
+---
+"기존에 두루뭉술하게 알고있던 개념을 하나씩 차근차근 배울 수 있어서 좋았습니다. 특히 HTTP와 브라우저의 동작원리, 웹서버와 WAS의 헷갈렸던 개념을 명확히 알 수 있었습니다. 학기중이라 보통 집에 돌아와 새벽시간에 많이 수강했는데 몸은 힘들지만 무언가 제대로 배우고 있다는 느낌이 들어 마음은 편했습니다. 앞으로도 쉽지는 않겠지만 포기하지 않고 꾸준히 수강하려 합니다. :D"
+
+---
 
 출처 : [부스트코스 Full-StackWeb Developer 과정](http://www.edwith.org/boostcourse-web/lecture/16666/)
