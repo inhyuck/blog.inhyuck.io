@@ -1,7 +1,7 @@
-baseURL = "http://blog.inhyuck.io/"
+baseURL = "https://blog.inhyuck.io/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "inhyuck's Dev Blog"
+title = "Inhyuck's Development Blog :D"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
@@ -10,8 +10,8 @@ preserveTaxonomyNames = true
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+googleAnalytics = "UA-119556778-1"      # UA-XXXXXXXX-X
+copyright = "inhyuck"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
   name = "Inhyuck"
@@ -77,7 +77,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
-  livereUID = ""            # LiveRe UID                  # 来必力
+  livereUID = "MTAyMC8zNjY3MC8xMzIwNQ=="            # LiveRe UID                  # 来必力
   baidu_push = false        # baidu push                  # 百度
   baidu_analytics = ""      # Baidu Analytics
   baidu_verification = ""   # Baidu Verification
