@@ -54,7 +54,7 @@ copyright = "inhyuck"            # default: author.name ↓        # 默认为�
   description = "Developer Inhyuck Choi Blog"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 5
+  archivePaginate = 15
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
