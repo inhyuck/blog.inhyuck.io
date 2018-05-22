@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.inhyuck.io/sitemap.xml
+Sitemap: https://blog.inhyuck.io/sitemap.xml

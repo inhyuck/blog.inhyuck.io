@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on inhyuck&#39;s Dev Blog</title>
-    <link>http://blog.inhyuck.io/categories/</link>
-    <description>Recent content in Categories on inhyuck&#39;s Dev Blog</description>
+    <title>Categories on Inhyuck&#39;s Development Blog :D</title>
+    <link>https://blog.inhyuck.io/categories/</link>
+    <description>Recent content in Categories on Inhyuck&#39;s Development Blog :D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 May 2018 02:28:21 +0900</lastBuildDate>
+    <copyright>inhyuck</copyright>
+    <lastBuildDate>Fri, 18 May 2018 03:09:04 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.inhyuck.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.inhyuck.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Boostcourse</title>
-      <link>http://blog.inhyuck.io/categories/boostcourse/</link>
-      <pubDate>Wed, 16 May 2018 02:28:21 +0900</pubDate>
+      <link>https://blog.inhyuck.io/categories/boostcourse/</link>
+      <pubDate>Fri, 18 May 2018 03:09:04 +0900</pubDate>
       
-      <guid>http://blog.inhyuck.io/categories/boostcourse/</guid>
+      <guid>https://blog.inhyuck.io/categories/boostcourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mentoring</title>
+      <link>https://blog.inhyuck.io/categories/mentoring/</link>
+      <pubDate>Thu, 17 May 2018 23:40:56 +0900</pubDate>
+      
+      <guid>https://blog.inhyuck.io/categories/mentoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>https://blog.inhyuck.io/categories/todo/</link>
+      <pubDate>Tue, 22 May 2018 23:53:19 +0900</pubDate>
+      
+      <guid>https://blog.inhyuck.io/categories/todo/</guid>
       <description></description>
     </item>
     
