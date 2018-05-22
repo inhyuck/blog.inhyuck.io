@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "hugo"
+# command = "hugo"
 
 # 테마 custom 이후 npm rebuild 필요한 경우 
-# command = "cd ./themes/even/src/; npm install; npm run build; cd ../../.. hugo"
+command = "cd ./themes/even/src/; npm install; npm run build; cd ../../.. hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.40.3"
