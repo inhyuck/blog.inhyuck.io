@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>한솥밥튜터링 | 알고리즘 Week 7 - Inhyuck&#39;s Development Blog :D</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Inhyuck" />
+  <meta name="description" content="
+" />
+
+  <meta name="keywords" content="Developer" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+<link rel="canonical" href="https://blog.inhyuck.io/post/mentoring/mentoring_week_7/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="한솥밥튜터링 | 알고리즘 Week 7" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.inhyuck.io/post/mentoring/mentoring_week_7/" />
+
+
+
+<meta property="article:published_time" content="2018-05-24T00:16:49&#43;09:00"/>
+
+<meta property="article:modified_time" content="2018-05-24T00:16:49&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="한솥밥튜터링 | 알고리즘 Week 7">
+<meta itemprop="description" content="">
+
+
+<meta itemprop="datePublished" content="2018-05-24T00:16:49&#43;09:00" />
+<meta itemprop="dateModified" content="2018-05-24T00:16:49&#43;09:00" />
+<meta itemprop="wordCount" content="1419">
+
+
+
+<meta itemprop="keywords" content="Algorithm,mentoring,hash,hashTable," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="한솥밥튜터링 | 알고리즘 Week 7"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">👨‍💻</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Post</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">Me</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">👨‍💻</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Post</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">Me</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">한솥밥튜터링 | 알고리즘 Week 7</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-05-24 </span>
+        <div class="post-category">
+            
+              <a href="/categories/mentoring/"> mentoring </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#date-2018-05-24-time-18-00-20-30-place-1407">Date 2018.05.24. | Time 18:00 - 20:30 | Place 1407</a></li>
+</ul></li>
+<li><a href="#스터디-전-공지">🏫 스터디 전 공지</a></li>
+<li><a href="#스터디">📖 스터디</a></li>
+</ul></li>
+<li><a href="#hash-table">Hash Table</a>
+<ul>
+<li><a href="#1-why-hash-table">1. Why Hash Table?</a></li>
+<li><a href="#2-hash-table-구현">2. Hash Table 구현</a></li>
+</ul></li>
+<li><a href="#red-black-tree-remind-http-blog-inhyuck-io-post-mentoring-mentoring-week-5">Red-Black Tree | <a href="http://blog.inhyuck.io/post/mentoring/mentoring_week_5/">remind</a></a></li>
+<li><a href="#b-tree-remind-http-blog-inhyuck-io-post-mentoring-mentoring-week-6">B Tree | <a href="http://blog.inhyuck.io/post/mentoring/mentoring_week_6/">remind</a></a>
+<ul>
+<li><a href="#과제">👩🏼‍💻 과제</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p></p>
+
+<h3 id="date-2018-05-24-time-18-00-20-30-place-1407">Date 2018.05.24. | Time 18:00 - 20:30 | Place 1407</h3>
+
+<h2 id="스터디-전-공지">🏫 스터디 전 공지</h2>
+
+<ul>
+<li>지난시간 과제 - B Tree 삽입/삭제 각자 만든 문제 및 풀이 공유 | <a href="https://drive.google.com/drive/folders/1BLVcXCUVuzPN-hzWrGVYUg-nU6OsoeLP?usp=sharing">드라이브</a>
+
+<br /></li>
+</ul>
+
+<h2 id="스터디">📖 스터디</h2>
+
+<h1 id="hash-table">Hash Table</h1>
+
+<h2 id="1-why-hash-table">1. Why Hash Table?</h2>
+
+<ol>
+<li>저장/검색의 복잡도</li>
+<li>What? : 원소가 저장될 자리가 원소의 값에 의해 결정되는 자료구조. 저장할 원소의 값으로 저장할 위치를 계산할 수 있다.</li>
+<li>평균 상수 시간에 삽입/삭제/검색 가능</li>
+</ol>
+
+<h2 id="2-hash-table-구현">2. Hash Table 구현</h2>
+
+<ul>
+<li>충돌 : 저장을 시도하려는 위치에 이미 다른 값이 저장되 있는 경우를 <strong>충돌</strong>이라 한다.</li>
+</ul>
+
+<ol>
+<li><p>저장할 위치 계산 방법</p>
+
+<ol>
+<li>Division Method : 저장할 값을 배열의 크기로 나눈 나머지를 저장할 위치로 배정
+
+<ul>
+<li>배열의 크기가 소수(primary number) 이어야 저장할 위치가 골고루 분포됨</li>
+</ul></li>
+<li>Multiplication : 상수값 A를 정하고 저장할 값에 곱한다. 이 결과에서 소수점 아래자리만 꺼내고 배열의 크기를 곱한다. 마지막으로 소수점 아래자리를 버린값을 저장할 위치로 배정
+
+<ul>
+<li>배열의 크기는 마음대로 정할 수 있다. 보통 2의 배수 크기로 정함</li>
+</ul></li>
+</ol></li>
+
+<li><p>충돌을 해결하는 방법</p>
+
+<ol>
+<li><p>Chaining : 저장할 리스트를 Linked List에 등록</p></li>
+
+<li><p>Open Addressing : 그 다음칸에 저장을 시도</p>
+
+<ol>
+<li><p>Linear probing</p>
+
+<ul>
+<li><p>다음칸을 계산할 때 처음 저장할 위치에서 1, 2, 3, 4, … 뒤 칸을 순서대로 시도하는 방법이다.</p></li>
+
+<li><p>충돌이 발생한 경우, 최종 저장할 위치의 근처에 저장하게 됨 =&gt; 1차 군집 문제 발생(데이터가 몰려 있는 곳에서 충돌 발생 확률이 높고 충돌이 발생한 근처에 데이터가 쌓이게 된다)</p></li>
+</ul></li>
+
+<li><p>Quadratic probing</p>
+
+<ul>
+<li>다음칸을 계산할 때 처음 저장할 위치에서 1의 제곱, 2의 제곱, 3의 제곱, &hellip; 뒤 칸을 순서대로 시도하는 방법이다.</li>
+<li>Linear probing 방법보다는 조금 덜하지만, 2차 군집 문제 발생 =&gt; 충돌이 발생했을 때 건너 뛰는 폭이 매번 다른 것이 좋다</li>
+</ul></li>
+
+<li><p>Double hashing</p>
+
+<ul>
+<li>저장할 값에 따라 건너뛰는 폭을 다르게 계산</li>
+</ul></li>
+</ol></li>
+</ol></li>
+
+<li><p>해시 테이블의 크기가 소수여야 하는 이유</p>
+
+<ul>
+<li><p>배열의 크기와 충돌시 건너뛸 간격이 서로소가 아니라면 계속해서 충돌시 동일한 위치를 계속해서 시도하게 된다. 따라서 배열의 크기를 소수로 정하고 건너뛸 간격을 배열의 크기보다 작게 만들면 모든 칸을 방문할 수 있다.</p></li>
+
+<li><p>해시테이블의 크기가 소수가 아니라면 건너뛸 간격이 소수여야 한다. 건너뛸 간격을 소수로 만드는 방법은 아래처럼 일대일 대응으로 건너뛸 간격을 소수에 대응시켜 주면 된다.</p></li>
+</ul>
+
+<pre><code class="language-java"> private static int getStepDistance(int value) {
+     int r = 0;
+         
+     switch (value % 7) {
+         case 0: r = 3; break;
+         case 1: r = 5; break;
+         case 2: r = 7; break;
+         case 3: r = 11; break;
+         case 4: r = 13; break;
+         case 5: r = 17; break;
+         case 6: r = 19; break;
+     }
+     return r;
+ }
+</code></pre></li>
+
+<li><p>해시 테이블의 크기 자동 증가 구현</p>
+
+<ul>
+<li>해시 테이블에 저장된 데이터가 어느 정도 수준을 넘으면, 충돌이 자주 발생하여 성능히 급격히 떨어진다.</li>
+<li>Load factor = 저장된 값의 수 / 해시 테이블의 크기</li>
+<li>해시 테이블의 load factor 값이 미리 정한 기준(threshold)을 넘으면, 두 배 크기의 해시 테이블을 새로 만들고, 기존의 데이터를 전부 새 해시 테이블에 저장한다.</li>
+<li>해시 테이블의 크기를 두배로 확장하면 해시 테이블의 크기가 소수일 수 없다. 이때는 건너뛸 간격을 소수로 만드는 방법을 사용한다.</li>
+</ul></li>
+
+<li><p>기본자료형이 아닌 객체의 해시 테이블</p>
+
+<ul>
+<li><p>java에서 모든 클래스의 부모인 Object의 클래스에 hashCode 메소드가 있다. 이 메소드는 해시 테이블에 저장할 주소를 계산할 때 필요한 정수를 리턴한다.</p></li>
+
+<li><p>Java 클래스를 구현할 때, equals 메소드와 hashCode 메소드를 재정의 하는 것이 바람직하다. =&gt; java 표준 라이브러리의 여러 유용한 기능 활용 가능</p></li>
+</ul>
+
+<pre><code class="language-java"> import java.util.Objects;
+     
+ @Override
+ public int hashCode() {
+     return Objects.hash(변수1, 변수2, ...)
+ }
+</code></pre></li>
+</ol>
+
+<h1 id="red-black-tree-remind-http-blog-inhyuck-io-post-mentoring-mentoring-week-5">Red-Black Tree | <a href="http://blog.inhyuck.io/post/mentoring/mentoring_week_5/">remind</a></h1>
+
+<h1 id="b-tree-remind-http-blog-inhyuck-io-post-mentoring-mentoring-week-6">B Tree | <a href="http://blog.inhyuck.io/post/mentoring/mentoring_week_6/">remind</a></h1>
+
+<h2 id="과제">👩🏼‍💻 과제</h2>
+
+<blockquote>
+<p>🐥 hash Table 사례 연습 =&gt; <a href="https://drive.google.com/drive/folders/1Uim1ykanC5_U3iuRji1NhzASux6VR9dp?usp=sharing">드라이브 공유</a></p>
+
+<ol>
+<li>Open Addressing - Linear Probing
+
+<ul>
+<li>저장할 위치 : division method</li>
+<li>배열의 크기 11</li>
+<li>저장할 값 : [4, 9, 15, 2, 26, 20]</li>
+</ul></li>
+<li>Open Addressing - Linear Probing
+
+<ul>
+<li>저장할 위치 : Multiplication (A = 0.6)</li>
+<li>배열의 크기 11</li>
+<li>저장할 값 : [4, 9, 15, 2, 26, 20]</li>
+</ul></li>
+<li>Open Addressing - Quadratic Probing
+
+<ul>
+<li>저장할 위치 : division method</li>
+<li>배열의 크기 17</li>
+<li>저장할 값: [3, 7, 16, 20, 1, 24, 21, 17]</li>
+</ul></li>
+<li>Open Addressing  - Double Hashing
+
+<ul>
+<li>저장할 위치 : division method</li>
+<li>배열의 크기 17</li>
+<li>건너뛸 간격 : (value % 7 + 1)</li>
+<li>저장할 값: [3, 7, 16, 20, 1, 24, 21, 17]</li>
+</ul></li>
+<li><strong>시험 공부📚</strong></li>
+</ol>
+</blockquote>
+
+<hr />
+
+<p>참고자료 : 성공회대학교 소프트웨어공학과 이승진교수님 강의자료 - Hash Table</p>
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/algorithm/">Algorithm</a>
+          
+          <a href="/tags/mentoring/">mentoring</a>
+          
+          <a href="/tags/hash/">hash</a>
+          
+          <a href="/tags/hashtable/">hashTable</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/todo/">
+            <span class="next-text nav-default">Blog To-do</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjY3MC8xMzIwNQ==">
+  <script type="text/javascript">
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+
+      if (typeof LivereTower === 'function') { return; }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  </script>
+  <noscript>Please enable JavaScript to view the comments powered by <a href="https://livere.com/">LiveRe.</a></noscript>
+  </div>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:dlsgur1447@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://www.facebook.com/inhyuck.choi.549" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://plus.google.com/106407520199025600618" class="iconfont icon-google" title="google"></a>
+      <a href="https://github.com/inhyuck" class="iconfont icon-github" title="github"></a>
+      <a href="https://getpocket.com/@326pfTM8AfuqMdf862g2ePUg6cddA618by9S74W85eN465jf530ZbQuQg18aQ849" class="iconfont icon-pocket" title="pocket"></a>
+  <a href="https://blog.inhyuck.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">inhyuck</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-119556778-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
