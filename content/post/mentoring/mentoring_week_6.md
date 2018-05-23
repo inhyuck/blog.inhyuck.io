@@ -75,4 +75,4 @@ sequenceDiagrams:
 
 > 이영/소현 - B Tree 삭제문제
  
-> 5.22. 서로 작성한 문제 온라인 교환 후 5.24 스터디 전까지 풀어보기.(동일하게 구글드라이브 공유)
+> 5.22. 서로 작성한 문제 온라인 교환 후 5.24 스터디 전까지 풀어보기.(동일하게 구글드라이브 공유) | [드라이브](https://drive.google.com/drive/folders/1Q8X7IKFdnNhqB1F_DXi4xtyrsQGDmi9w?usp=sharing)
