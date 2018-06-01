@@ -1,12 +1,12 @@
 ---
-title: "Blog To-do"
-date: 2018-05-22T23:53:19+09:00
-lastmod: 2018-05-22T23:53:19+09:00
-# draft: true
+title: "블로그 이전"
+date: 2018-05-15T20:23:02+09:00
+lastmod: 2018-05-30T20:23:02+09:00
+draft: true
 keywords: []
-description: ""
-tags: ["todo"]
-categories: ["todo"]
+description: "blog start"
+tags: ["blog"]
+categories: ["blog"]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
@@ -38,10 +38,5 @@ sequenceDiagrams:
 
 <!--more-->
 
-- [google blogger](http://dlsgur1447.blogspot.kr/) 블로그 이전
-- 한솥밥 튜터링
-- 알고리즘 문제풀이
-- [채널 연결하기](https://channel.io/ko)
-- [Me](https://blog.inhyuck.io/about/) 수정
-- 우아한형제들 Tech MeetUp
-- 2018 AwsomeDay
+# 블로그를 이전하며...
+
