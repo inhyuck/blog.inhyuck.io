@@ -10,9 +10,7 @@ comment: false
 
 안녕하세요. 개발자 최인혁입니다.
 
-주언어 : [java](https://java.com),
-
-프로젝트 경력 : (차차 채워나가겠습니다.)
+주언어 : [java](https://java.com)
 
 관심분야 : 자료구조, 알고리즘, 디자인패턴
 

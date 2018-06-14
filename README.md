@@ -1,4 +1,4 @@
-# 블로그(blog.inhyuck.io)
+# 블로그 | [blog.inhyuck.io](https://blog.inhyuck.io/)
 
 개발 블로그 입니다 :)
 
@@ -15,5 +15,6 @@
 
 - [hugo theme Even](https://github.com/olOwOlo/hugo-theme-even)
 - [참고한 블로그](https://github.com/inhyuck/devnote/blob/master/Blog.md)
+- [Netlify를 알려준 민호형](https://github.com/heeinso)
 ------
 
