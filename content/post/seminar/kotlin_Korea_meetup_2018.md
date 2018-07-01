@@ -44,6 +44,10 @@ sequenceDiagrams:
 
 [`Meetup 행사정보`](https://www.meetup.com/ko-KR/kotlinkr/events/251399066/comments/492399550/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDAyOWJkYWUyLTdiZTktNGI3Zi05MDVkLTU4MmI3ZGRiNmJjZg&_af=event&_af_eid=251399066&itemTypeToken=COMMENT&https=on)
 
+![http](../../../images/seminar/img_kotlin_Korea_meetup_2018_1.png)
+
+![http](../../../images/seminar/img_kotlin_Korea_meetup_2018_2.png)
+
 ## 1. Kotlin을 사용한 함수 프로그래밍(Functional Programming with Kotlin)
 
 연사 : [`JetBrains Hadi Hariri`](https://github.com/hhariri)
