@@ -38,8 +38,6 @@ sequenceDiagrams:
 
 <!--more-->
 
-![img_d2campus_partner.jpg](../../images/seminar/img_d2campus_partner.jpg)
-
 # D2 CAMPUS 7th PARTNER'S DAY
 
 `2018-07-24(화)  13:30 ~ 17:00 , 그린팩토리 커넥트홀`
@@ -204,5 +202,7 @@ sequenceDiagrams:
 - 주니어의 입장에서는 다양한 분야를 다 해보면서 본인이 재밌는게 무엇인지 파악하자. 그러다 재밌는 분야가 확실해지면 깊이 파고들어라.
 - 첫 직장 선택 시 대기업만 추구하기 보다는 본인이 배울 수 있는 회사에서 커리어를 먼저 쌓는게 좋다고 하셨는데 배울 수 있는 회사 성장할 수 있는 회사를 구분하는 기준이나 팁이 있는지? => 면접때 면접관한테 내가 알고있는 지식, 기술을 물어보기 -> 대답해주는 수준에 따라 그 회사가 좋은 회사인지 아닌지 구분할 수 있다!!
 
+![img_d2campus_partner.jpg](../../../images/seminar/img_d2campus_partner.jpg)
 
+# 
 
