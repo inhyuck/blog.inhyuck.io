@@ -1,27 +1,17 @@
 ---
 title: "Me"
 date: 2017-08-20T21:38:52+08:00
-lastmod: 2017-08-28T21:41:52+08:00
+lastmod: 2018-07-26T21:41:52+08:00
 menu: "main"
-weight: 50
+weight: 30
 
 comment: false
 ---
 
-안녕하세요. 개발자 최인혁입니다.
+안녕하세요! 
 
-주언어 : [java](https://java.com)
+개발공부 정리와 더불어 많이 부족하지만 다른분에게 도움이 되는 정보를 제공할 수 있다면 좋겠다 싶어 블로그를 운영하고 있습니다.
 
-관심분야 : 자료구조, 알고리즘, 디자인패턴
+오류/오탈자나 추가/수정하고 싶은 부분이 있으시면 댓글 남겨주시거나 페이지 하단의 SNS로 연락 부탁드립니다.
 
----
-문의사항은 아래 SNS로 연락주세요.
-
-
-[Gamil](mailto:dlsgur1447@gmail.com)
-|
-[GitHub](https://github.com/inhyuck)
-|
-[Facebook](https://www.facebook.com/inhyuck.choi.549)
-
-
+감사합니다 😄
