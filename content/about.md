@@ -26,6 +26,7 @@ comment: false
 
 나니고는 일상에서 마주치는 어렵고도 가벼운 고민들을 질문하고 답변하는 고민해결 서비스 입니다.
 
+- 진행 기간 : 2018.6.30 - 2018.8.25
 - [상세 소개](https://github.com/Nexters/banchan-server/blob/master/README.md)
 - [Github](https://github.com/Nexters/banchan-server)
 - [Google Play](https://play.google.com/store/apps/details?id=banchan.nexters.com.nanigoandroid)
