@@ -5,7 +5,6 @@
 ## 사용 기술
 - [netlify](https://www.netlify.com/)
 - [HUGO](https://gohugo.io/)
-- [GitHub](https://github.com/)
 
 ## 저자
 
@@ -13,7 +12,7 @@
 
 ## 감사 인사
 
-- [hugo theme Even](https://github.com/olOwOlo/hugo-theme-even)
+- [hugo theme hugo-paper](https://github.com/nanxiaobei/hugo-paper)
 - [참고한 블로그](https://github.com/inhyuck/devnote/blob/master/Blog.md)
 - [Netlify를 알려준 민호형](https://github.com/heeinso)
 ------

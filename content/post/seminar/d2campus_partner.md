@@ -4,41 +4,12 @@ date: 2018-07-24T15:24:28+09:00
 lastmod: 2018-07-27T15:24:28+09:00
 # draft: true
 keywords: []
+summary: "NAVER D2 CAMPUS 7th PARTNER'S DAY 참여후기"
 description: "NAVER D2 CAMPUS 7th PARTNER'S DAY 참여후기"
 tags: ["D2", "NEXTERS", "개발자 커리어"]
-categories: ["Seminar"]
-author: "inhyuck"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: false
-autoCollapseToc: true
-postMetaInFooter: ture
-hiddenFromHomePage: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
-mathjaxEnableAutoNumber: false
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
+menu: "Seminar"
 
 ---
-
-<!--more-->
-
-# D2 CAMPUS 7th PARTNER'S DAY
 
 `2018-07-24(화)  13:30 ~ 17:00 , 그린팩토리 커넥트홀`
 

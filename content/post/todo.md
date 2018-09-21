@@ -8,6 +8,7 @@ description: ""
 tags: ["todo"]
 categories: ["todo"]
 author: ""
+menu: "hello"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed

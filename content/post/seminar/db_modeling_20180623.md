@@ -1,39 +1,9 @@
 ---
 title: "SW 개발자/기획자도 알면 좋은 DB 모델링"
-date: 2018-06-23T13:11:21+09:00
-lastmod: 2018-06-23T13:11:21+09:00
+date: 2018-06-23
 # draft: true
-keywords: []
 description: ""
 tags: ["seminar", "database", "modeling"]
-categories: ["Seminar"]
-author: "inhyuck"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
-mathjaxEnableAutoNumber: false
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
-
 ---
 
 <!--more-->

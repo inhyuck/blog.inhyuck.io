@@ -8,35 +8,8 @@ description: "Kotlin Korea Meetup 2018 참석후기"
 tags: ["seminar", "kotlin"]
 categories: ["Seminar"]
 author: "inhyuck"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
-mathjaxEnableAutoNumber: false
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
-
+menu: "Seminar"
 ---
-
-<!--more-->
 
 ## Kotlin Korea Meetup 2018
 
@@ -59,8 +32,6 @@ sequenceDiagrams:
 - 코틀린 반환값 Unit과 Nothing
 
 - Lambda function
-
-  
 
 - Exception 처리
 
@@ -89,7 +60,7 @@ sequenceDiagrams:
 
 ---
 
-## 3. 코틀린 맛 빌드스크립트
+## 3. 코틀린 ![logo](logo.png)맛 빌드스크립트
 
 연사 : [`Riid CTO 허재위`](https://github.com/hhariri)
 
@@ -110,20 +81,14 @@ sequenceDiagrams:
 
 - 독립적인 프로젝트 - 이미 buildSrc가 있거나 / 멋진 플러그인을 구현 및 공유 & 배포
 
-  
-
 - [Riid 채용홍보 !!](http://riiid.co/kr/)
 
 > - 코틀린을 배워보지 않았지만 scala와 함께 언젠가 기회되면 꼭 배우고 싶은 언어 1순위 입니다. 게다가 스프링 5.0버전부터 코틀린언어도 채택했기 때문에 더욱 관심을 갖고 있습니다. 
 >
->   
->
 > - 예전 자바지기님 강의에서도 코틀린으로 코딩하면 간결한 코드를 작성할 수 있음은 물론 기존 Java로만 코딩했을 때와 또다른 생각의 전환을 할 수 있다 하셨습니다. 확실히 언어마다 특성이 있고 동일한 내용의 프로그램을 작성하더라도 각 언어마다 사고하는 방식이 달라지는 것 같습니다.
->
->   
 >
 > - 이번 행사를 들으면서 kotlin을 알고있었다면 훨씬 더 유익하고 재밌었을 것 같습니다. 코틀린의 아버지라 불리는 Hadi Hariri 님에게 강연을 듣는 기회는 앞으로도 흔치 않을 것 같아 더 아쉽습니다. 하지만 코틀린을 잘 모른다 하더라도 소개해준 문법중에 신기한 것들도 많았습니다. 확실히 간결한 코딩을 할 수 있고 그래서 더욱 더 배워보고 싶기도 합니다. 두번째 세션에서 Riid 허재위님이 소개해주신 코틀린으로 build.gradle 작성하기는 현재 진행중인 Spring 프로젝트에 적용해보려 합니다. 
 >
 > - 코틀린 언어를 몰라 이해하기 쉽지는 않았던 세미나였지만 코틀린이 왜 각광받는지 느낄 수 있었습니다. 얼른 Java를 좀 더 깊이 공부한 후 그다음으로는 1순위로 코틀린을 배워보고 싶어졌습니다. :D
 >
-> 
+>

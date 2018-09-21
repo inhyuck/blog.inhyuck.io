@@ -1,40 +1,4 @@
----
-title: "한솥밥튜터링 | 알고리즘 Week 2"
-date: 2018-04-19T00:03:17+09:00
-lastmod: 2018-05-23T00:03:17+09:00
-# draft: true
-keywords: []
-description: ""
-tags: ["Algorithm", "mentoring"]
-categories: ["mentoring"]
-author: ""
 
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
-mathjaxEnableAutoNumber: false
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
-
----
 
 <!--more-->
 
@@ -53,11 +17,8 @@ sequenceDiagrams:
 - quick sort
 
   1. 각각 로직 설명(그림으로)
-
   2. 코드단계별로 설명
-
   3. merge sort 와 quick sort 시간복잡도, 공간복잡도 비교(최선, 최악의 경우)
-
   4. quick partition 기준값 맨 뒤 원소로 연습해보기
 
       

@@ -1,39 +1,11 @@
 ---
 title: "부스트코스 웹 FE특강 참석후기"
 date: 2018-08-31T09:04:54+09:00
-lastmod: 2018-08-31T09:04:54+09:00
 # draft: true
-keywords: []
+summary: "dssafas"
 description: "부스트코스 웹FE특강 참석후기"
 tags: ["seminar", "boostcourse"]
 categories: ["Seminar"]
-author: "inhyuck"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
-mathjaxEnableAutoNumber: false
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
-
 ---
 
 <!--more-->
@@ -107,22 +79,3 @@ sequenceDiagrams:
 >
 >- 방학 때 Spring boot로 서버개발을 담당하며 개발에 재미를 느꼈다. 그러나 디자이너와 더욱 가깝게 교류하며 View단을 개발해 보고 싶다는 욕구가 생겼다. 그리하여 웹 프론트엔드 개발에 관심이 생겼고, 제대로 공부를 시작하기 전 학습 방향을 알 수 있었다.
 >- 실습 부분에서 확실히 모르는 부분이 많았는데 차근차근 공부해나가며 프론트엔드 개발의 재미를 느껴보고 싶다. :)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
