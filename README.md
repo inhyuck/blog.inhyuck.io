@@ -1,4 +1,9 @@
-# 블로그 | [blog.inhyuck.io](https://blog.inhyuck.io/)
+# 2018.09.23 블로그를 Medium으로 이전하였습니다.
+# 👉 [Link](https://medium.com/inhyuck)
+
+---
+
+# 블로그(현재 운영 X) | [blog.inhyuck.io](https://blog.inhyuck.io/)
 
 개발 블로그 입니다 :)
 
